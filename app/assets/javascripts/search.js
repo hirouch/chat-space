@@ -67,14 +67,12 @@ $(function(){
 
 $(function(){
   $("#chat-group-users").on("click",".user-remove" ,function() {
-    console.log('aaaa');
       $("#user_" + $(this).attr('data-id')).remove();
     });
   });
 
   $(function(){
     $(".user-remove").on("click" ,function() {
-      console.log('aaaa');
         $("#user_" + $(this).attr('data-id')).remove();
       });
     });
