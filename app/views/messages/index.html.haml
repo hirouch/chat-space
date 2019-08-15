@@ -14,7 +14,7 @@
               = user.name
       .right-header
         .right-header__button
-          Edit
+          = link_to "Edit", edit_group_path(@group), class: 'inside'
     .messages
       = render @messages
     .form
